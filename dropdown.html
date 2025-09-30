@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>K. Varadarajan — Portfolio</title>
+  <style>
+    :root{font-family:Inter,system-ui,Arial;margin:0;color:#111}
+    body{margin:0;padding:0;background:#f7f8fa}
+    header{background:#0b74da;color:white;padding:40px 20px;text-align:center}
+    .container{max-width:900px;margin:30px auto;padding:0 16px}
+    h1{margin:0;font-size:28px}
+    p.lead{margin:8px 0 0;opacity:.95}
+    .grid{display:grid;gap:18px}
+    .projects{margin-top:18px}
+    .card{background:white;padding:16px;border-radius:10px;box-shadow:0 6px 18px rgba(20,20,40,.06)}
+    .card h3{margin:0 0 6px;font-size:18px}
+    .meta{font-size:13px;color:#666;margin-bottom:10px}
+    ul.skills{display:flex;flex-wrap:wrap;gap:8px;padding:0;margin:8px 0 0;list-style:none}
+    ul.skills li{background:#eef3ff;padding:6px 10px;border-radius:8px;font-size:13px}
+    footer{margin:36px 0;text-align:center;color:#666;font-size:14px}
+    .btn{display:inline-block;margin-top:12px;padding:8px 12px;border-radius:8px;background:#095ab5;color:white;text-decoration:none}
+    @media(min-width:700px){
+      .grid{grid-template-columns:1fr 320px}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>K. Varadarajan — Full Stack Developer</h1>
+      <p class="lead">Building web apps using Java, Spring Boot, Thymeleaf, and MySQL. Always learning, always improving.</p>
+      <p style="margin-top:10px"><a href="mailto:varadarajan@example.com" class="btn">Contact: varadarajan@example.com</a></p>
+    </div>
+  </header>
+
+  <main class="container grid">
+    <section>
+      <div class="card">
+        <h2>About Me</h2>
+        <p>I am a fresher in Full Stack Web Development with strong Java, Spring Boot, Thymeleaf, MySQL, HTML, CSS, and JavaScript skills. I enjoy building demo projects to improve my knowledge and problem-solving abilities.</p>
+      </div>
+
+      <div class="projects">
+        <div class="card">
+          <h2>Projects</h2>
+
+          <article style="margin-top:12px">
+            <h3>JobConnect — Job Portal (Demo)</h3>
+            <div class="meta">Java • Spring Boot • Thymeleaf • MySQL</div>
+            <p>Developed registration/login, role-based dashboard, job posting, and job search features. Used this demo to practice full-stack development and interview preparation.</p>
+          </article>
+
+          <article style="margin-top:12px">
+            <h3>Product Catalog — Store UI</h3>
+            <div class="meta">HTML • CSS • JavaScript</div>
+            <p>Created a responsive product catalog with add-to-cart and filtering functionality. Practiced DOM manipulation and frontend layout skills.</p>
+          </article>
+
+          <article style="margin-top:12px">
+            <h3>Todo API — REST Demo</h3>
+            <div class="meta">Spring Boot • MongoDB</div>
+            <p>Built CRUD REST API for managing tasks and connected a simple frontend. Learned API design and database integration.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <aside>
+      <div class="card">
+        <h2>Skills</h2>
+        <ul class="skills">
+          <li>Java</li><li>Spring Boot</li><li>Thymeleaf</li><li>HTML</li><li>CSS</li><li>JavaScript</li><li>MySQL</li><li>MongoDB</li>
+        </ul>
+      </div>
+
+      <div class="card" style="margin-top:14px">
+        <h2>Links</h2>
+        <p style="margin:6px 0">GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+        <p style="margin:6px 0">LinkedIn: <a href="https://linkedin.com/in/yourusername" target="_blank">linkedin.com/in/yourusername</a></p>
+      </div>
+    </aside>
+  </main>
+
+  <footer>
+    <div class="container">© 2025 K. Varadarajan — Built for practice • Email: varadarajan@example.com</div>
+  </footer>
+</body>
+</html>
